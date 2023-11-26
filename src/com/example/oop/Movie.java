@@ -11,6 +11,9 @@ public class Movie {
 		
 		Actor detailedActor = new Actor("Arnold", "Sweignster", true);
 		System.out.println(actor);
+		
+		String actorName = actor.getActorName();
+		System.out.println(actorName);
 	}
 	
 }
