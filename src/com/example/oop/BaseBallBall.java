@@ -19,8 +19,16 @@ public class BaseBallBall extends Ball {
 		
 	
 		System.out.println("You hit the baseball");
-		super.hit();
+		super.hit(ball);
 		
 	}
+	
+	//This is downcasting ;)
+	//The base class is ball and subclass is baseball
+	//but when creating a new instance of a baseball object we can directly
+	//say that we want an instance of a baseball which is a ball type
+	Ball ball = new BaseBallBall();
+	
+	
 	
 }
